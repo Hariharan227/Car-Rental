@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/2.jpg);
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+}
+
+ul
+{
+    float: right;
+    list-style-type: none;  
+    margin-top: 20px; 
+    margin-right: 10px; 
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+ul li a:hover
+{
+    background-color: #fff;
+    color: #1abc9c;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #ecf0f1;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+
+ul li.active a
+{
+    background-color: #fff;
+    color: #1abc9c;
+}
+
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1
+{
+    color: #fff;
+    font-size: 60px;
+}
+
+.box
+{
+    width: 900px;
+    height: 450px;
+    background-color: #000000b3;
+    color: #ecf0f1;
+    position: absolute;  
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h2
+{
+    margin-top: -20px;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.box input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box input[type="text"],input[type="password"],input[type="number"],input[type="email"]
+{
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid #ecf0f1;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #ecf0f1;
+    font-size: 16px;
+}
+
+
+.box input[type="submit"]
+{
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #1abc9c;
+    outline: none;
+    height: 40px;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+.box1
+{
+    width: 320px;
+    height: 500px;
+    background-color: #000000b3;
+    color: #ecf0f1;
+    position: absolute;  
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.box1 input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box1 input[type="text"],input[type="number"],input[type="email"]
+{
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid #ecf0f1;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #ecf0f1;
+    font-size: 16px;
+}
+
+
+.box1 input[type="submit"]
+{
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #1abc9c;
+    outline: none;
+    height: 40px;
+    color: #ecf0f1;
+    font-size: 18px;
+}

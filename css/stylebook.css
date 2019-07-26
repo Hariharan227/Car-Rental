@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/2.jpg);
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+}
+
+ul
+{
+    float: right;
+    list-style-type: none;  
+    margin-top: 20px; 
+    margin-right: 10px; 
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+ul li a:hover
+{
+    background-color: #fff;
+    color: #1abc9c;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #ecf0f1;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+
+ul li.active a
+{
+    background-color: #fff;
+    color: #1abc9c;
+}
+
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1
+{
+    color: #fff;
+    font-size: 60px;
+}
+
+.cover
+{
+    height: 70vh;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex_form input[type="submit"]
+{
+    background-color: #FEA47F;
+    border: 1px solid #FEA47F;
+    color: #fff;
+    padding: 0 30px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.flex_form input[type="submit"]:hover
+{
+    background-color: #55E6C1;
+    border: 1px solid #55E6C1;
+}
+
+.flex_form
+{
+    display: flex;
+    z-index: 10;
+    position: relative;
+    width: 500px;
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.3);
+}
+
+
+.flex_form >
+*{
+    border: 0;
+    padding: 0 0 0 10px;
+    background: #fff;
+    line-height: 50px;
+    font-size: 1rem;
+    border-radius: 0;
+    outline: 0;
+}
+
+input[type="search"]
+{
+    flex-basis: 300px;
+}
